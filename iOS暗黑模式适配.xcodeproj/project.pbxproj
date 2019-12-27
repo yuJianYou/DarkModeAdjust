@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1854601623B5DF24006F623E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1854601523B5DF24006F623E /* AppDelegate.m */; };
+		1854601F23B5DF24006F623E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1854601D23B5DF24006F623E /* Main.storyboard */; };
+		1854602123B5DF28006F623E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1854602023B5DF28006F623E /* Assets.xcassets */; };
+		1854602423B5DF28006F623E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1854602223B5DF28006F623E /* LaunchScreen.storyboard */; };
+		1854602723B5DF28006F623E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1854602623B5DF28006F623E /* main.m */; };
+		1854602F23B5ED63006F623E /* UIColor+HZXColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1854602D23B5ED63006F623E /* UIColor+HZXColor.m */; };
+		1854603323B5ED9D006F623E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1854603123B5ED9D006F623E /* MainViewController.m */; };
+		1854603423B5ED9D006F623E /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1854603223B5ED9D006F623E /* MainViewController.xib */; };
+		1854603623B60114006F623E /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1854603523B60114006F623E /* Colors.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1854601123B5DF24006F623E /* 暗黑模式适配.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "暗黑模式适配.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1854601423B5DF24006F623E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1854601523B5DF24006F623E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1854601E23B5DF24006F623E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1854602023B5DF28006F623E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1854602323B5DF28006F623E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1854602523B5DF28006F623E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1854602623B5DF28006F623E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1854602D23B5ED63006F623E /* UIColor+HZXColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HZXColor.m"; sourceTree = "<group>"; };
+		1854602E23B5ED63006F623E /* UIColor+HZXColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HZXColor.h"; sourceTree = "<group>"; };
+		1854603023B5ED9D006F623E /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		1854603123B5ED9D006F623E /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		1854603223B5ED9D006F623E /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		1854603523B60114006F623E /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		1854603723B60832006F623E /* ColorDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorDefine.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1854600E23B5DF24006F623E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1854600823B5DF24006F623E = {
+			isa = PBXGroup;
+			children = (
+				1854601323B5DF24006F623E /* iOS暗黑模式适配 */,
+				1854601223B5DF24006F623E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1854601223B5DF24006F623E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1854601123B5DF24006F623E /* 暗黑模式适配.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1854601323B5DF24006F623E /* iOS暗黑模式适配 */ = {
+			isa = PBXGroup;
+			children = (
+				1854602E23B5ED63006F623E /* UIColor+HZXColor.h */,
+				1854602D23B5ED63006F623E /* UIColor+HZXColor.m */,
+				1854603723B60832006F623E /* ColorDefine.h */,
+				1854601423B5DF24006F623E /* AppDelegate.h */,
+				1854601523B5DF24006F623E /* AppDelegate.m */,
+				1854603023B5ED9D006F623E /* MainViewController.h */,
+				1854603123B5ED9D006F623E /* MainViewController.m */,
+				1854603223B5ED9D006F623E /* MainViewController.xib */,
+				1854601D23B5DF24006F623E /* Main.storyboard */,
+				1854602023B5DF28006F623E /* Assets.xcassets */,
+				1854603523B60114006F623E /* Colors.xcassets */,
+				1854602223B5DF28006F623E /* LaunchScreen.storyboard */,
+				1854602523B5DF28006F623E /* Info.plist */,
+				1854602623B5DF28006F623E /* main.m */,
+			);
+			path = "iOS暗黑模式适配";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1854601023B5DF24006F623E /* iOS暗黑模式适配 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1854602A23B5DF28006F623E /* Build configuration list for PBXNativeTarget "iOS暗黑模式适配" */;
+			buildPhases = (
+				1854600D23B5DF24006F623E /* Sources */,
+				1854600E23B5DF24006F623E /* Frameworks */,
+				1854600F23B5DF24006F623E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS暗黑模式适配";
+			productName = "iOS暗黑模式适配";
+			productReference = 1854601123B5DF24006F623E /* 暗黑模式适配.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1854600923B5DF24006F623E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					1854601023B5DF24006F623E = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 1854600C23B5DF24006F623E /* Build configuration list for PBXProject "iOS暗黑模式适配" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1854600823B5DF24006F623E;
+			productRefGroup = 1854601223B5DF24006F623E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1854601023B5DF24006F623E /* iOS暗黑模式适配 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1854600F23B5DF24006F623E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1854603623B60114006F623E /* Colors.xcassets in Resources */,
+				1854602423B5DF28006F623E /* LaunchScreen.storyboard in Resources */,
+				1854602123B5DF28006F623E /* Assets.xcassets in Resources */,
+				1854601F23B5DF24006F623E /* Main.storyboard in Resources */,
+				1854603423B5ED9D006F623E /* MainViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1854600D23B5DF24006F623E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1854601623B5DF24006F623E /* AppDelegate.m in Sources */,
+				1854602F23B5ED63006F623E /* UIColor+HZXColor.m in Sources */,
+				1854602723B5DF28006F623E /* main.m in Sources */,
+				1854603323B5ED9D006F623E /* MainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1854601D23B5DF24006F623E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1854601E23B5DF24006F623E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1854602223B5DF28006F623E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1854602323B5DF28006F623E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1854602823B5DF28006F623E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1854602923B5DF28006F623E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1854602B23B5DF28006F623E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CC97P779EW;
+				INFOPLIST_FILE = "iOS暗黑模式适配/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HZXapp.iOSAdjustDarkMode;
+				PRODUCT_NAME = "暗黑模式适配";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1854602C23B5DF28006F623E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CC97P779EW;
+				INFOPLIST_FILE = "iOS暗黑模式适配/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HZXapp.iOSAdjustDarkMode;
+				PRODUCT_NAME = "暗黑模式适配";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1854600C23B5DF24006F623E /* Build configuration list for PBXProject "iOS暗黑模式适配" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1854602823B5DF28006F623E /* Debug */,
+				1854602923B5DF28006F623E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1854602A23B5DF28006F623E /* Build configuration list for PBXNativeTarget "iOS暗黑模式适配" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1854602B23B5DF28006F623E /* Debug */,
+				1854602C23B5DF28006F623E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1854600923B5DF24006F623E /* Project object */;
+}
