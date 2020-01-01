@@ -14,6 +14,10 @@
 @property (weak, nonatomic) IBOutlet UILabel *customColorLabel;
 //用颜色集合定义的Label
 @property (weak, nonatomic) IBOutlet UILabel *colorSetLabel;
+///图片适配
+@property (weak, nonatomic) IBOutlet UIImageView *appleImageView;
+///layer层的颜色适配
+@property (weak, nonatomic) IBOutlet UILabel *layerLabel;
 
 @end
 
@@ -53,14 +57,33 @@
     ///用ColorSet 跟UIImage使用是类似的  把自定义的颜色名字写入就行了
     self.colorSetLabel.textColor = [UIColor colorNamed:@"customBlueColor"];
     
+    //图片适配
+    self.appleImageView.image = [UIImage imageNamed:@"icon01"];
+    
+    /**
+     *CGColor适配
+     *给一个默认的边框颜色
+    */
+    self.layerLabel.layer.borderWidth = 1;
+    self.layerLabel.layer.borderColor = KTestColor.CGColor;
+    
+    
+    
+    
     
 }
 
 - (void)traitCollectionDidChange:(UITraitCollection *)previousTraitCollection{
+    /**
+     *CGColor适配
+     *iOS13后，UIColor能够表示动态颜色，但是CGColor依然只能表示一种颜色。所以对于CALayer对象只能在traitCollectionDidChange方法中进行改变
+    */
+    self.layerLabel.layer.borderColor = KTestColor.CGColor;
+    
     if (self.traitCollection.userInterfaceStyle == UIUserInterfaceStyleDark) {
         NSLog(@"************* iOS13 暗黑模式");
     }else{
-        NSLog(@"$$$$$$$$$$$$$ iOS13 普通模式");
+        NSLog(@"############# iOS13 普通模式");
     }
 }
 @end
