@@ -50,10 +50,15 @@
     //设置背景颜色 这里我用的是系统提供给我们的颜色
     self.view.backgroundColor = [UIColor systemBackgroundColor];
     
+    
+    
+    
     ///这里用宏定义给label背景赋值
-    self.customColorLabel.textColor = KCustomAdjustColor([UIColor greenColor], [UIColor yellowColor]);
+    self.customColorLabel.textColor = KCustomAdjustColor([UIColor redColor], [UIColor yellowColor]);
+    
     //这里用对UIColor的类别给label背景赋值
     self.customColorLabel.backgroundColor = [UIColor colorWithLightColorStr:@"226597" DarkColor:@"5ACFB1"] ;
+    
     ///用ColorSet 跟UIImage使用是类似的  把自定义的颜色名字写入就行了
     self.colorSetLabel.textColor = [UIColor colorNamed:@"customBlueColor"];
     
@@ -62,28 +67,37 @@
     
     /**
      *CGColor适配
+     *iOS13后，UIColor能够表示动态颜色，但是CGColor依然只能表示一种颜色。所以对于CALayer对象只能在traitCollectionDidChange方法中进行改变
      *给一个默认的边框颜色
     */
     self.layerLabel.layer.borderWidth = 1;
-    self.layerLabel.layer.borderColor = KTestColor.CGColor;
-    
-    
-    
-    
     
 }
 
+/// 重写这个方法就会改变当前页面的模式
+//- (UIUserInterfaceStyle)overrideUserInterfaceStyle{
+//    return UIUserInterfaceStyleLight;
+//}
+
+
+/// 模式改变的回调代理
 - (void)traitCollectionDidChange:(UITraitCollection *)previousTraitCollection{
+    [super traitCollectionDidChange:previousTraitCollection];
     /**
      *CGColor适配
      *iOS13后，UIColor能够表示动态颜色，但是CGColor依然只能表示一种颜色。所以对于CALayer对象只能在traitCollectionDidChange方法中进行改变
     */
     self.layerLabel.layer.borderColor = KTestColor.CGColor;
-    
-    if (self.traitCollection.userInterfaceStyle == UIUserInterfaceStyleDark) {
-        NSLog(@"************* iOS13 暗黑模式");
-    }else{
-        NSLog(@"############# iOS13 普通模式");
+    if (@available(iOS 13.0, *)) {
+        if ([self.traitCollection hasDifferentColorAppearanceComparedToTraitCollection:previousTraitCollection]) {
+            if (self.traitCollection.userInterfaceStyle == UIUserInterfaceStyleDark) {
+                NSLog(@"************* iOS13 暗黑模式");
+            }else{
+                NSLog(@"############# iOS13 普通模式");
+            }
+        }
+        
     }
+    
 }
 @end

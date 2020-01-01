@@ -93,7 +93,7 @@
                         <constraint firstAttribute="width" constant="50" id="cmp-lI-hcN"/>
                     </constraints>
                 </imageView>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CALay层的颜色只能在模式监听的方法中才能改变颜色" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zlc-IQ-uw6">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CALayer层的颜色只能在模式监听的方法中才能改变颜色" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zlc-IQ-uw6">
                     <rect key="frame" x="20" y="397.5" width="374" height="50"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="50" id="rQo-Wo-NZ9"/>
