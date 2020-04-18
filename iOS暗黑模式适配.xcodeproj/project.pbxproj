@@ -16,6 +16,11 @@
 		1854603323B5ED9D006F623E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1854603123B5ED9D006F623E /* MainViewController.m */; };
 		1854603423B5ED9D006F623E /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1854603223B5ED9D006F623E /* MainViewController.xib */; };
 		1854603623B60114006F623E /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1854603523B60114006F623E /* Colors.xcassets */; };
+		48996E9624460096003E23E0 /* UIImage+HZXIconFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 48996E9524460096003E23E0 /* UIImage+HZXIconFont.m */; };
+		48996E9B244601F1003E23E0 /* iconfont.css in Resources */ = {isa = PBXBuildFile; fileRef = 48996E98244601F1003E23E0 /* iconfont.css */; };
+		48996E9C244601F1003E23E0 /* demo_index.html in Resources */ = {isa = PBXBuildFile; fileRef = 48996E99244601F1003E23E0 /* demo_index.html */; };
+		48996E9D244601F1003E23E0 /* demo.css in Resources */ = {isa = PBXBuildFile; fileRef = 48996E9A244601F1003E23E0 /* demo.css */; };
+		48996E9F24460209003E23E0 /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48996E9E24460209003E23E0 /* iconfont.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +39,12 @@
 		1854603223B5ED9D006F623E /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		1854603523B60114006F623E /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		1854603723B60832006F623E /* ColorDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorDefine.h; sourceTree = "<group>"; };
+		48996E9424460096003E23E0 /* UIImage+HZXIconFont.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+HZXIconFont.h"; sourceTree = "<group>"; };
+		48996E9524460096003E23E0 /* UIImage+HZXIconFont.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HZXIconFont.m"; sourceTree = "<group>"; };
+		48996E98244601F1003E23E0 /* iconfont.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = iconfont.css; sourceTree = "<group>"; };
+		48996E99244601F1003E23E0 /* demo_index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = demo_index.html; sourceTree = "<group>"; };
+		48996E9A244601F1003E23E0 /* demo.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = demo.css; sourceTree = "<group>"; };
+		48996E9E24460209003E23E0 /* iconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,8 +77,11 @@
 		1854601323B5DF24006F623E /* iOS暗黑模式适配 */ = {
 			isa = PBXGroup;
 			children = (
+				48996E97244601BF003E23E0 /* 字体图标库 */,
 				1854602E23B5ED63006F623E /* UIColor+HZXColor.h */,
 				1854602D23B5ED63006F623E /* UIColor+HZXColor.m */,
+				48996E9424460096003E23E0 /* UIImage+HZXIconFont.h */,
+				48996E9524460096003E23E0 /* UIImage+HZXIconFont.m */,
 				1854603723B60832006F623E /* ColorDefine.h */,
 				1854601423B5DF24006F623E /* AppDelegate.h */,
 				1854601523B5DF24006F623E /* AppDelegate.m */,
@@ -82,6 +96,17 @@
 				1854602623B5DF28006F623E /* main.m */,
 			);
 			path = "iOS暗黑模式适配";
+			sourceTree = "<group>";
+		};
+		48996E97244601BF003E23E0 /* 字体图标库 */ = {
+			isa = PBXGroup;
+			children = (
+				48996E9E24460209003E23E0 /* iconfont.ttf */,
+				48996E99244601F1003E23E0 /* demo_index.html */,
+				48996E9A244601F1003E23E0 /* demo.css */,
+				48996E98244601F1003E23E0 /* iconfont.css */,
+			);
+			path = "字体图标库";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,9 +168,13 @@
 			files = (
 				1854603623B60114006F623E /* Colors.xcassets in Resources */,
 				1854602423B5DF28006F623E /* LaunchScreen.storyboard in Resources */,
+				48996E9F24460209003E23E0 /* iconfont.ttf in Resources */,
+				48996E9C244601F1003E23E0 /* demo_index.html in Resources */,
 				1854602123B5DF28006F623E /* Assets.xcassets in Resources */,
+				48996E9D244601F1003E23E0 /* demo.css in Resources */,
 				1854601F23B5DF24006F623E /* Main.storyboard in Resources */,
 				1854603423B5ED9D006F623E /* MainViewController.xib in Resources */,
+				48996E9B244601F1003E23E0 /* iconfont.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,6 +189,7 @@
 				1854602F23B5ED63006F623E /* UIColor+HZXColor.m in Sources */,
 				1854602723B5DF28006F623E /* main.m in Sources */,
 				1854603323B5ED9D006F623E /* MainViewController.m in Sources */,
+				48996E9624460096003E23E0 /* UIImage+HZXIconFont.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -15,6 +15,6 @@
 #define KCustomAdjustColor(lightColor, darkColor) [UIColor colorWithLightColor:lightColor DarkColor:darkColor]
 
 ///测试颜色
-#define KTestColor [UIColor colorWithLightColorStr:@"226597" DarkColor:@"5ACFB1"]
+#define KTestColor [UIColor colorWithLightColorStr:@"000000" DarkColor:@"FFFFFF"]
 
 #endif /* ColorDefine_h */
