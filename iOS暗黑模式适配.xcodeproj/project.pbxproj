@@ -16,6 +16,7 @@
 		1854603323B5ED9D006F623E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1854603123B5ED9D006F623E /* MainViewController.m */; };
 		1854603423B5ED9D006F623E /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1854603223B5ED9D006F623E /* MainViewController.xib */; };
 		1854603623B60114006F623E /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1854603523B60114006F623E /* Colors.xcassets */; };
+		4843DD57244E8EA600C0B9C7 /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4843DD56244E8EA600C0B9C7 /* BaseTabBarController.m */; };
 		48996E9624460096003E23E0 /* UIImage+HZXIconFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 48996E9524460096003E23E0 /* UIImage+HZXIconFont.m */; };
 		48996E9B244601F1003E23E0 /* iconfont.css in Resources */ = {isa = PBXBuildFile; fileRef = 48996E98244601F1003E23E0 /* iconfont.css */; };
 		48996E9C244601F1003E23E0 /* demo_index.html in Resources */ = {isa = PBXBuildFile; fileRef = 48996E99244601F1003E23E0 /* demo_index.html */; };
@@ -39,6 +40,8 @@
 		1854603223B5ED9D006F623E /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		1854603523B60114006F623E /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		1854603723B60832006F623E /* ColorDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorDefine.h; sourceTree = "<group>"; };
+		4843DD55244E8EA600C0B9C7 /* BaseTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTabBarController.h; sourceTree = "<group>"; };
+		4843DD56244E8EA600C0B9C7 /* BaseTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
 		48996E9424460096003E23E0 /* UIImage+HZXIconFont.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+HZXIconFont.h"; sourceTree = "<group>"; };
 		48996E9524460096003E23E0 /* UIImage+HZXIconFont.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HZXIconFont.m"; sourceTree = "<group>"; };
 		48996E98244601F1003E23E0 /* iconfont.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = iconfont.css; sourceTree = "<group>"; };
@@ -88,6 +91,8 @@
 				1854603023B5ED9D006F623E /* MainViewController.h */,
 				1854603123B5ED9D006F623E /* MainViewController.m */,
 				1854603223B5ED9D006F623E /* MainViewController.xib */,
+				4843DD55244E8EA600C0B9C7 /* BaseTabBarController.h */,
+				4843DD56244E8EA600C0B9C7 /* BaseTabBarController.m */,
 				1854601D23B5DF24006F623E /* Main.storyboard */,
 				1854602023B5DF28006F623E /* Assets.xcassets */,
 				1854603523B60114006F623E /* Colors.xcassets */,
@@ -189,6 +194,7 @@
 				1854602F23B5ED63006F623E /* UIColor+HZXColor.m in Sources */,
 				1854602723B5DF28006F623E /* main.m in Sources */,
 				1854603323B5ED9D006F623E /* MainViewController.m in Sources */,
+				4843DD57244E8EA600C0B9C7 /* BaseTabBarController.m in Sources */,
 				48996E9624460096003E23E0 /* UIImage+HZXIconFont.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

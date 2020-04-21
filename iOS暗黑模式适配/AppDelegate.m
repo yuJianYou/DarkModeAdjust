@@ -7,19 +7,23 @@
 //
 
 #import "AppDelegate.h"
-#import "MainViewController.h"
+#import "BaseTabBarController.h"
 @interface AppDelegate ()
-
+@property (nonatomic, strong) BaseTabBarController *tabBarController;
 @end
 
 @implementation AppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    MainViewController *VC = [[MainViewController alloc] init];
-    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:VC];
+    _tabBarController = [[BaseTabBarController alloc]init];
+    self.window.rootViewController = _tabBarController;
     [self.window makeKeyAndVisible];
     return YES;
 }
+
+
+
+
 
 @end
