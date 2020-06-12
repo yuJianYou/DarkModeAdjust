@@ -92,8 +92,6 @@
     
     self.centerImageView.image = [UIImage imageWithIcon:@"\U0000e608" size:40 color:KTestColor];
     
-    
-    
 }
 
 /// 重写这个方法就会改变当前页面的模式
