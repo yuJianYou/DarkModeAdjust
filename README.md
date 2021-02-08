@@ -2,14 +2,14 @@
 iOS暗黑模式开发版，看了这个，直接上手适配
 ### 效果图 
 ![效果图](https://upload-images.jianshu.io/upload_images/16265162-ff3b139323cbb263.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-###颜色适配
+### 颜色适配
 iOS13之后苹果将**UIColor**改变成了动态颜色，**UIColor**会根据不同模式来改变不同的颜色。苹果提供给我们了一些系统颜色。这些颜色请参考**UIIntercace.h**这个类。然而我们更在意的是我们自定义的颜色。系统给我们提供了两个方法
 ```
 + (UIColor *)colorWithDynamicProvider:(UIColor * (^)(UITraitCollection *))dynamicProvider;
 - (UIColor *)initWithDynamicProvider:(UIColor * (^)(UITraitCollection *))dynamicProvider;
 ```
-接下来是我自己对**UIColor**进行的category，这里提供了一些设置颜色的方法，请查看[Demo](https://github.com/yuJianYou/DarkModeAdjust.git)
-```
+接下来是我自己对**UIColor**进行的category，这里提供了一些设置颜色的方法
+```objectivec
 /// 十六进制字符串获取颜色
 /// @param color 16进制色值  支持@“#123456”、 @“0X123456”、 @“123456”三种格式
 + (UIColor *)colorWithHexString:(NSString *)color;
