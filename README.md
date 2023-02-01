@@ -41,7 +41,7 @@ iOS13之后苹果将**UIColor**改变成了动态颜色，**UIColor**会根据�
 //只需在给颜色赋值的时候指定不同模式下的颜色即可
 self.customColorLabel.backgroundColor = [UIColor colorWithLightColorStr:@"226597" DarkColor:@"5ACFB1"] ;
 ```
-####Color Set 的使用
+#### Color Set 的使用
 对于使用xib的童鞋来说，我们就只能使用color set颜色集了。首先创建一个颜色集合![color set](https://upload-images.jianshu.io/upload_images/16265162-e4e8ae69f423d432.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 接下来选择Appearance选项中的Any,Dark模式就会出现两个模式，我们设置这两个模式的颜色值，使用的时候直接使用我们自定义的颜色名称(customBlueColor)就可以了
 
@@ -51,7 +51,7 @@ self.customColorLabel.backgroundColor = [UIColor colorWithLightColorStr:@"226597
 ///用ColorSet 跟UIImage使用是类似的  把自定义的颜色名字写入就行了
 self.colorSetLabel.textColor = [UIColor colorNamed:@"customBlueColor"];
 ```
-###Layer层面上的Color适配
+### Layer层面上的Color适配
 iOS13中UIColor是动态变化的，但是对于CGColr,CALayer层面上的Color来说，还是只是单一颜色,我们只能在模式变化的时候的监听方法中适配。不过我们可以参考[XYColor](https://github.com/RayJiang16/XYColor.git)
 ```
 /// 模式改变的回调代理
@@ -74,7 +74,7 @@ iOS13中UIColor是动态变化的，但是对于CGColr,CALayer层面上的Color�
     }
 }
 ```
-###图片适配
+### 图片适配
 其实图片适配跟**Color Set**设置是一样
 ![图片适配](https://upload-images.jianshu.io/upload_images/16265162-f3af13ab4f1e633e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 使用方法：
